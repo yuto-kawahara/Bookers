@@ -13,7 +13,7 @@
     </tr>
   </thead>
   <tbody>
-    <% @books.reverse_each do |book| %>
+    <% @books.each do |book| %>
       <tr>
         <td><%= book.title %></td>
         <td><%= book.body %></td>
